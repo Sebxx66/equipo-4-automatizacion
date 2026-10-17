@@ -1,6 +1,6 @@
 # QA Tienda Escolar · Suite de pruebas automatizadas
 
-[![Pruebas automatizadas](https://github.com/SebasTxZz/equipo-4-automatizacion/actions/workflows/playwright.yml/badge.svg)](https://github.com/SebasTxZz/equipo-4-automatizacion/actions/workflows/playwright.yml)
+[![Pruebas automatizadas](https://github.com/Sebxx66/equipo-4-automatizacion/actions/workflows/playwright.yml/badge.svg)](https://github.com/Sebxx66/equipo-4-automatizacion/actions/workflows/playwright.yml)
 
 Suite de pruebas end-to-end con **Playwright + TypeScript** para la tienda en línea de prácticas de la materia *Verificación y validación de software* (Laboratorio 3.1 · Universidad Católica Luis Amigó). Convierte los casos de prueba manuales del plan de pruebas en pruebas que se ejecutan solas, detectan bugs del producto y los enlazan con Jira.
 
@@ -8,7 +8,7 @@ Suite de pruebas end-to-end con **Playwright + TypeScript** para la tienda en l�
 |---|---|
 | **Sistema bajo prueba** | https://qa-tienda-pruebas.vercel.app (no se modifica) |
 | **Plan de pruebas y bugs** | [Proyecto TE en Jira](https://amigo-team-dauluhlg.atlassian.net/jira/software/projects/TE/boards/67/backlog) |
-| **Reporte de la última ejecución en `main`** | https://sebastxzz.github.io/equipo-4-automatizacion/ |
+| **Reporte de la última ejecución en `main`** | https://sebxx66.github.io/equipo-4-automatizacion/ |
 | **Entrega del laboratorio** | [`ENTREGA.md`](ENTREGA.md) (decisiones, bugs, diagnóstico, medidas y reflexión) |
 | **Equipo 4** | Simon Restrepo Aristizabal · Jhoan Palacio · Juan Cartagena · |
 
@@ -36,7 +36,7 @@ Suite de pruebas end-to-end con **Playwright + TypeScript** para la tienda en l�
 Requisitos: **Node.js 20 o superior** (`node -v`) y **Git**. Se descarga un navegador de pruebas (~600 MB).
 
 ```bash
-git clone https://github.com/SebasTxZz/equipo-4-automatizacion.git
+git clone https://github.com/Sebxx66/equipo-4-automatizacion.git
 cd equipo-4-automatizacion
 npm ci
 npx playwright install chromium
