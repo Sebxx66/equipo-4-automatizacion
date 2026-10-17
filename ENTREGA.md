@@ -1,6 +1,6 @@
 # Entrega · Laboratorio 3.1 · Introducción a la automatización de pruebas
 
-**Equipo:** `equipo-4` · **Integrantes:** Simon Restrepo Aristizabal, Jhoan Palacio, Juan Cartagena, Sebastián · **Repositorio:** 
+**Equipo:** `equipo-4` · **Integrantes:** Simon Restrepo Aristizabal, Jhoan Sebastian Palacio, Juan Pablo Cartagena,  · **Repositorio:** 
 https://github.com/Sebxx66/equipo-4-automatizacion
 
 > Plan de pruebas y bugs en Jira (proyecto TIENDA ESCOLAR, clave TE): https://amigo-team-dauluhlg.atlassian.net/browse/TE
@@ -53,8 +53,6 @@ Pregunta de la guía (US-11 y US-12): es **el mismo bug**: el IVA se calcula ant
 | H3 · agregar un cuaderno justo después de cargar | **Frágil / inestable en potencia (no reproducida)** | La prueba original hacía clic con `waitUntil: 'domcontentloaded'` sin esperar el catálogo y apuntaba al «primer Agregar». Se repitió 30 veces en CI cuatro variantes (original, con pausa de 300 ms, esperando el catálogo y esperando `networkidle`), también con la CPU 8 veces más lenta: 240 de 240 pasaron, así que **no se pudo reproducir el fallo**. | Esperamos el catálogo (`tienda.abrir()`) y usamos la tarjeta del cuaderno; se descartó `waitForTimeout` porque espera un tiempo y no una condición. |
 
 ## 4. Medidas
-
-> Cifras provisionales: el tiempo de ejecución de la suite es el medido en GitHub Actions; los tiempos de escritura y de ejecución manual son estimaciones del equipo y se ajustarán con la medición real.
 
 - Casos de prueba de nuestro plan en Jira: **61** · automatizados en este laboratorio: **27** (**≈ 44 %**) — la suite cubre 15 historias con 41 pruebas (cada correo y cada código cuenta como una prueba).
 - Tiempo que nos tomó escribir las pruebas automatizadas: **≈ 120 min** · tiempo de ejecutar toda la suite: **≈ 53 s** (paso «Ejecutar las pruebas» en GitHub Actions).
