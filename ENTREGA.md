@@ -1,6 +1,7 @@
 # Entrega · Laboratorio 3.1 · Introducción a la automatización de pruebas
 
-**Equipo:** `equipo-4` · **Integrantes:** Simon Restrepo Aristizabal, Jhoan Palacio, Juan Cartagena, Sebastián · **Repositorio:** https://github.com/SebasTxZz/equipo-4-automatizacion
+**Equipo:** `equipo-4` · **Integrantes:** Simon Restrepo Aristizabal, Jhoan Palacio, Juan Cartagena, Sebastián · **Repositorio:** 
+https://github.com/Sebxx66/equipo-4-automatizacion
 
 > Plan de pruebas y bugs en Jira (proyecto TIENDA ESCOLAR, clave TE): https://amigo-team-dauluhlg.atlassian.net/browse/TE
 
